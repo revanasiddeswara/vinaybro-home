@@ -878,6 +878,7 @@ form label {
 @media screen and (max-width: 768px){
 .fh5co-cover {
     height: 580px;
+    padding-top: 40px !important;
 }
 }
 #fh5co-header .display-tc h2,
