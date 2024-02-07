@@ -1919,15 +1919,14 @@ input[type="submit"] {
   max-height: 200px;
   vertical-align: middle;
 }
-@media (max-width: 768px) {
-    #fh5co-header {
-        background-image: url(images/mobile-bg.jpeg);
-        /* Additional styles as needed */
-        background-size: cover; /* or contain */
-  background-position: center;
-    }
-}
 #fh5co-header {
-  background-size: cover; /* or contain */
-  background-position: center;
+  background-image: url(images/bg.jpeg);
+  background-size: cover; /* Ensures the background image covers the entire header */
+  background-position: center; /* Centers the background image within the header */
 }
+@media (max-width: 767px) {
+  #fh5co-header {
+      background-image: url(images/bg.jpeg); /* Replace with the appropriate mobile background image */
+  }
+}
+
