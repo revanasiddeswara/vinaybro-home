@@ -1920,8 +1920,12 @@ input[type="submit"] {
   vertical-align: middle;
 }
 @media (max-width: 768px) {
-  #fh5co-header {
-      background-image: url(images/mobile-bg.jpeg);
-      /* Additional styles as needed */
-  }
+    #fh5co-header {
+        background-image: url(images/mobile-bg.jpeg);
+        /* Additional styles as needed */
+    }
+}
+#fh5co-header {
+  background-size: cover; /* or contain */
+  background-position: center;
 }
