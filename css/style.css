@@ -1920,13 +1920,13 @@ input[type="submit"] {
   vertical-align: middle;
 }
 #fh5co-header {
-  background-image: url(images/bg.jpeg);
-  background-size: cover; /* Ensures the background image covers the entire header */
-  background-position: center; /* Centers the background image within the header */
+  background-image:url(images/bg.jpeg);
+  background-size: cover !important; /* Ensures the background image covers the entire header */
+  background-position: center !important; /* Centers the background image within the header */
 }
 @media (max-width: 767px) {
   #fh5co-header {
-      background-image: url(images/bg.jpeg); /* Replace with the appropriate mobile background image */
+      background-image: url(images/bg.jpeg) !important; /* Replace with the appropriate mobile background image */
   }
 }
 
