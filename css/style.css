@@ -1919,3 +1919,9 @@ input[type="submit"] {
   max-height: 200px;
   vertical-align: middle;
 }
+@media (max-width: 768px) {
+  #fh5co-header {
+      background-image: url(images/mobile-bg.jpeg);
+      /* Additional styles as needed */
+  }
+}
