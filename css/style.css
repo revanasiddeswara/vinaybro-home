@@ -1923,6 +1923,8 @@ input[type="submit"] {
     #fh5co-header {
         background-image: url(images/mobile-bg.jpeg);
         /* Additional styles as needed */
+        background-size: cover; /* or contain */
+  background-position: center;
     }
 }
 #fh5co-header {
