@@ -1961,5 +1961,6 @@ input[type="submit"] {
     font-weight: 800;
   }
 }
-
-
+.button a{
+  color:#000000
+}
