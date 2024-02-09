@@ -1931,8 +1931,9 @@ input[type="submit"] {
 @media (max-width: 767px) {
  body {
       background-image: url(../images/mobi_bg.jpg) !important; /* Replace with the appropriate mobile background image */
-      background-size: cover !important; /* Ensures the background image covers the entire header */
+      background-size: auto !important; /* Ensures the background image covers the entire header */
       background-position: center !important; /* Centers the background image within the header */
+      filter: blur(5px); 
   }
 }
 
