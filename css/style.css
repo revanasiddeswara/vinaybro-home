@@ -1944,14 +1944,21 @@ input[type="submit"] {
     background-image: url(../images/mobi_bg.jpg); /* Replace with the appropriate mobile background image */
     background-size: contain;
     background-position: center;
-    filter: blur(5px); /* Adjust the blur radius as needed */
+    filter: blur(20px); /* Adjust the blur radius as needed */
     z-index: -1;
   }
   .event-wrap h3 ,p , span ,a , i{
     color:antiquewhite !important;
   }
   .box{
-    border: 2px solid #eea236;
+    border: 2px solid #ecc58d !important;
+  }
+  .box h3{
+    border-bottom: 1px solid #ecc58d !important;
+  }
+  #fh5co-services h3{
+    color:antiquewhite !important;
+    font-weight: 800;
   }
 }
 
