@@ -377,7 +377,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .fh5co-heading h2,
 #fh5co-event .fh5co-heading h2 {
-  color: #646464;
+  color: antiquewhite;
 }
 #fh5co-counter .fh5co-heading span,
 #fh5co-event .fh5co-heading span {
@@ -1857,7 +1857,7 @@ form label {
 }
 
 #contact {
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     padding: 20px;
     border-radius: 8px;
 }
@@ -1931,21 +1931,27 @@ input[type="submit"] {
 @media (max-width: 767px) {
   body {
     position: relative;
+    color:antiquewhite !important;
   }
 
   body::after {
     content: '';
-    color:antiquewhite;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-image: url(../images/mobi_bg.jpg); /* Replace with the appropriate mobile background image */
-    background-size: initial;
+    background-size: contain;
     background-position: center;
     filter: blur(5px); /* Adjust the blur radius as needed */
     z-index: -1;
+  }
+  .event-wrap h3 ,p , span ,a , i{
+    color:antiquewhite !important;
+  }
+  .box{
+    border: 2px solid #eea236;
   }
 }
 
