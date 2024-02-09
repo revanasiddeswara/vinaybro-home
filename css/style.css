@@ -1935,6 +1935,7 @@ input[type="submit"] {
 
   body::after {
     content: '';
+    color:antiquewhite;
     position: absolute;
     top: 0;
     left: 0;
@@ -1943,7 +1944,7 @@ input[type="submit"] {
     background-image: url(../images/mobi_bg.jpg); /* Replace with the appropriate mobile background image */
     background-size: initial;
     background-position: center;
-    /* filter: blur(5px); Adjust the blur radius as needed */
+    filter: blur(5px); /* Adjust the blur radius as needed */
     z-index: -1;
   }
 }
