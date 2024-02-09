@@ -969,7 +969,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 7em 0;
+  padding: 2em 0;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -1194,7 +1194,7 @@ form label {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  /* *display: inline; */
   width: 100px;
   height: 100px;
 }
@@ -1924,6 +1924,13 @@ input[type="submit"] {
 @media (max-width: 767px) {
   #fh5co-header {
       background-image: url(../images/mobibg.png) !important; /* Replace with the appropriate mobile background image */
+      background-size: cover !important; /* Ensures the background image covers the entire header */
+      background-position: center !important; /* Centers the background image within the header */
+  }
+}
+@media (max-width: 767px) {
+ body {
+      background-image: url(../images/bg_mobi.png) !important; /* Replace with the appropriate mobile background image */
       background-size: cover !important; /* Ensures the background image covers the entire header */
       background-position: center !important; /* Centers the background image within the header */
   }
