@@ -1961,6 +1961,24 @@ input[type="submit"] {
     font-weight: 800;
   }
 }
-.button a{
-  color:#000000 !important
+.button{
+  background: #fff;
+  color: #646464 !important;
+  border: 2px solid #fff;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  padding: 8px 20px;
+}
+svg{
+  z-index: 1;
 }
